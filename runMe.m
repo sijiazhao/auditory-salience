@@ -40,9 +40,9 @@ for s = 1:numSound
     % Require Kayser's salience model
     % extract the key features from Kayser et al.'s salience model output. Briefly speaking, the Kayser model turns a sound into a salience map (looks like the attached image). You can decrease the dimension of this salience map by computing its key features, such as the max amplitude (how warm is the warmest colour in that image), mean amplitude, max change in time, mean change in time, max change in amplitude etc etc.
     
-%     nfft = min(length(signal),256);
-%     window = hanning(nfft);
-%     noverlap = ceil(length(window)/2);
+    %     nfft = min(length(signal),256);
+    %     window = hanning(nfft);
+    %     noverlap = ceil(length(window)/2);
     
     nfft = 1024;
     window = 800;
